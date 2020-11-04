@@ -1,17 +1,55 @@
-#### ***文中链接各位根据自己项目对应修改***
---------------------------------------------------------------------------------
-#### **项目管理**：
-#### *PMO*:(http://pmo.corp.qunar.com)<br />
---------------------------------------------------------------------------------
-#### **CI/CD**:
-#### *QDR*:(http://qdr.corp.qunar.com/)<br />
-#### *QCI*:(http://qci.corp.qunar.com/)<br />
-#### *CABLE*:(http://wanshiwu.corp.qunar.com/qualitycheck/index/)<br />
+# unirDemo
+这是一个三端统一的Demo工程，完全本地打包，基于RN开发，融合了RN的expo框架，以及阿里的remax框架，引入了我们的开源组件库@qnpm/rn-remax-mirror
 
---------------------------------------------------------------------------------
-#### **质量管理**:
-#### *bugfree*:(http://svn.corp.qunar.com/bugfree)<br />
-#### *case*:(http://bugfree.corp.qunar.com/bugfree/index.php/case)<br />
---------------------------------------------------------------------------------
-#### **项目信息**:
-#### *wiki*:(http://wiki.corp.qunar.com/)<br />
+项目目录结构
+```
+unirDemo
+├── App.js
+├── App.web.js
+├── README.md
+├── app.json
+├── assets
+│   ├── favicon.png
+│   ├── icon.png
+│   └── splash.png
+├── babel.config.js
+├── mini.project.json
+├── package.json
+├── project.config.json
+├── public
+│   ├── icon.png
+│   └── index.html
+├── remax.config.js
+├── src
+│   ├── Components
+│   ├── app.config.js
+│   ├── app.css
+│   ├── app.js
+│   └── pages
+├── tree.md
+├── webpack.config.js
+└── yarn.lock
+
+```
+
+## 启动流程
+
+---
+### 1、安装依赖
+```
+yarn
+```
+### 2、运行dev环境
+```
+yarn dev         //RN环境
+yarn dev:wx      //微信小程序，需要用小程序IDE打开./dist/wechat目录进行调试开发  
+```
+### 参考文档：
+
+---
+remax  
+- [官网](https://remaxjs.org/)
+- [github地址](https://github.com/remaxjs/remax)
+expo
+- [官网](https://docs.expo.io/)
+---

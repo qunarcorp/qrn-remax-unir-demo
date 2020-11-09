@@ -42,7 +42,7 @@ yarn
 ```
 ### 2、运行dev环境
 ```
-yarn dev         //RN环境
+yarn dev         //RN,web环境
 yarn dev:wx      //微信小程序，需要用小程序IDE打开./dist/wechat目录进行调试开发  
 ```
 ### 参考文档：

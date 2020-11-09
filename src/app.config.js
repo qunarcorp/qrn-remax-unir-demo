@@ -23,8 +23,3 @@ module.exports.toutiao = {
     navigationBarBackgroundColor: '#282c34',
   },
 };
-
-module.exports.web = {
-  pages,
-  title: 'Remax Web Template',
-};

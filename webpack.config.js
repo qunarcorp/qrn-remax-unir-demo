@@ -50,7 +50,7 @@ const jsName = process.env.NODE_ENV === 'production' ? '[name]@[chunkhash].js' :
 const cssName = process.env.NODE_ENV === 'production' ? '[name]@[chunkhash].css' : '[name]@dev.css'
 
 module.exports = {
-
+    mode:'development',
     resolve: {
         alias: {
             'lodash': 'lodash-es',
@@ -101,6 +101,15 @@ module.exports = {
                         ]
                     }
                 }],
+            },
+            {
+                test: /\.(gif|jpe?g|png|svg)$/,
+                use: {
+                    loader: require.resolve('url-loader'),
+                    options: {
+                        name: 'img/[name].[ext]'
+                    }
+                }
             },
             createCssLoader(/\.css$/),
             createCssLoader(/\.less$/, require.resolve('less-loader')),

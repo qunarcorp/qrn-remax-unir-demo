@@ -1981,10 +1981,10 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@qnpm/rn-remax-mirror@^0.2.46-beta.FD-15346.635":
-  version "0.2.46-beta.FD-15346.635"
-  resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/@qnpm/rn-remax-mirror/-/@qnpm/rn-remax-mirror-0.2.46-beta.FD-15346.635.tgz#bf3c917f13b45977e875c6eb6c17df1ac447f72f"
-  integrity sha1-vzyRfxO0WXfodcbrbBffGsRH9y8=
+"@qnpm/rn-remax-mirror@^0.2.46-beta.FD-15346.664":
+  version "0.2.46-beta.FD-15346.664"
+  resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/@qnpm/rn-remax-mirror/-/@qnpm/rn-remax-mirror-0.2.46-beta.FD-15346.664.tgz#a6a05ddae959f3f6b12b5104dfad6b6e2d538688"
+  integrity sha1-pqBd2ulZ8/axK1EE361rbi1Thog=
   dependencies:
     "@babel/plugin-proposal-object-rest-spread" "^7.10.3"
     "@babel/plugin-syntax-jsx" "^7.10.1"
@@ -9324,7 +9324,7 @@ mime-types@2.1.11:
   dependencies:
     mime-db "~1.23.0"
 
-mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.19, mime-types@~2.1.24:
+mime-types@^2.1.12, mime-types@^2.1.27, mime-types@~2.1.17, mime-types@~2.1.19, mime-types@~2.1.24:
   version "2.1.27"
   resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/mime-types/download/mime-types-2.1.27.tgz#47949f98e279ea53119f5722e0f34e529bec009f"
   integrity sha1-R5SfmOJ56lMRn1ci4PNOUpvsAJ8=
@@ -11238,6 +11238,13 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/punycode/download/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
+pusher-js@^7.0.1:
+  version "7.0.1"
+  resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/pusher-js/download/pusher-js-7.0.1.tgz#9fa4420f3a05546e520fdffc3d067eda2f8fd224"
+  integrity sha1-n6RCDzoFVG5SD9/8PQZ+2i+P0iQ=
+  dependencies:
+    tweetnacl "^1.0.3"
+
 q@^1.1.2:
   version "1.5.1"
   resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/q/download/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
@@ -13114,6 +13121,11 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/tweetnacl/download/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
+tweetnacl@^1.0.3:
+  version "1.0.3"
+  resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/tweetnacl/download/tweetnacl-1.0.3.tgz#ac0af71680458d8a6378d0d0d050ab1407d35596"
+  integrity sha1-rAr3FoBFjYpjeNDQ0FCrFAfTVZY=
+
 type-fest@^0.10.0:
   version "0.10.0"
   resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/type-fest/download/type-fest-0.10.0.tgz#7f06b2b9fbfc581068d1341ffabd0349ceafc642"
@@ -13341,6 +13353,15 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
+
+url-loader@^4.1.1:
+  version "4.1.1"
+  resolved "https://repo.corp.qunar.com/artifactory/api/npm/npm-qunar/url-loader/download/url-loader-4.1.1.tgz#28505e905cae158cf07c92ca622d7f237e70a4e2"
+  integrity sha1-KFBekFyuFYzwfJLKYi1/I35wpOI=
+  dependencies:
+    loader-utils "^2.0.0"
+    mime-types "^2.1.27"
+    schema-utils "^3.0.0"
 
 url-parse-lax@^1.0.0:
   version "1.0.0"

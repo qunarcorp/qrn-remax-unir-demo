@@ -56,7 +56,6 @@ class Home extends Component {
     }
 
     render() {
-        console.log('RUNTIME_ENV', process.env.RUNTIME_ENV);
         return (
             <SafeAreaView style={{flex: 1, backgroundColor: '#F5FCFF', width: '100%'}}>
                 <View style={[styles.container]}>

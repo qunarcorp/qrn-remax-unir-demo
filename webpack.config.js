@@ -1,6 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin') // mini css
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
     template: `${__dirname}/public/index.html`,
     filename: 'index.html',
@@ -46,7 +45,6 @@ function createCssLoader(test, addLoader) {
     return loader
 }
 
-const jsName = process.env.NODE_ENV === 'production' ? '[name]@[chunkhash].js' : '[name]@dev.js'
 const cssName = process.env.NODE_ENV === 'production' ? '[name]@[chunkhash].css' : '[name]@dev.css'
 
 module.exports = {

@@ -1,9 +1,7 @@
-const TerserPlugin = require('terser-webpack-plugin');
-
 const alaisToAdd = {
-  'react-native': '@qnpm/rn-remax-mirror',
-  './basicsAlert$': '@qnpm/rn-remax-mirror/lib/exports/BasicsAlert',
-  './Portal$': '@qnpm/rn-remax-mirror/lib/exports/Portal',
+  'react-native': 'qrn-remax-unir',
+  './basicsAlert$': 'qrn-remax-unir/lib/exports/BasicsAlert',
+  './Portal$': 'qrn-remax-unir/lib/exports/Portal',
 };
 module.exports = {
   one: true,

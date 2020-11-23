@@ -5,7 +5,8 @@
     "dev:web": "webpack serve",
     "dev:wx": "remax build -w -t wechat",
     "build:wx": "NODE_ENV=production remax build -t wechat",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {
     "expo": "~39.0.2",
@@ -68,5 +69,6 @@
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
-  "private": true
+  "private": true,
+  "version": "0.0.0"
 }

@@ -4,7 +4,6 @@ const alaisToAdd = {
   './Portal$': 'qrn-remax-unir/lib/exports/Portal',
 };
 module.exports = {
-  one: true,
   pxToRpx: false,
   compressTemplate: true,
   output: 'dist/' + process.env.REMAX_PLATFORM,
